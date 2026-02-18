@@ -1,0 +1,24 @@
+/* User Profile Component */
+.user-profile {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+}
+.avatar{
+   width: 36px;
+   height: 36px;
+   background: #cbd5e1;
+   border-radius: 99999px;
+}
+.user-info {
+   text-align: right;
+   line-height: 1.2;
+}
+.user-name {
+   font-weight: 600;
+   font-size: 0.875rem;
+}
+.user-role {
+   color: var(--text-muted);
+   font-size: .75rem;
+}
